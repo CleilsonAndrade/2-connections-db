@@ -14,4 +14,4 @@ import { DataModule } from './modules/data/data.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule { }
+export class AppModule {}

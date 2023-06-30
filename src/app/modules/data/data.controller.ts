@@ -2,10 +2,10 @@ import { Controller, Get } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
 import { DataService } from './data.service';
 
-@ApiTags('teste')
+@ApiTags('Data Copy')
 @Controller('data')
 export class DataController {
-  constructor(private readonly dataService: DataService) { }
+  constructor(private readonly dataService: DataService) {}
 
   // @Post()
   // create(@Body() createDatumDto: CreateDatumDto) {

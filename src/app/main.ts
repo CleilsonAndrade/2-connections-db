@@ -23,8 +23,8 @@ async function bootstrap(): Promise<void> {
       type: 'http',
       scheme: 'bearer',
     })
-    .setTitle('Route Guide')
-    .setDescription('API documentation from Route Guide.')
+    .setTitle('2 Connections DB')
+    .setDescription('API documentation from 2 Connections DB')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
